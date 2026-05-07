@@ -186,7 +186,7 @@ physics_library = {
             ]
         },
         {
-            'id': 'work_fdcos',
+            'id': 'work_f d cos',
             'title': "Work (Force × Distance)",
             'equation': "W = F d cos(θ)",
             'desc': "Work done by force at angle.",
@@ -1062,7 +1062,7 @@ def calculate():
             elif target == 'v':
                 res = math.sqrt((2 * v['KE']) / v['m'])
 
-        elif fid == 'work_fdcos':
+        elif fid == 'work_f d cos':
             if target == 'W':
                 res = v['F'] * v['d'] * math.cos(v['theta'])
             elif target == 'F':
