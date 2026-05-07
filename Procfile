@@ -1,1 +1,1 @@
-web: gunicorn SolveMate V2:app
+web: gunicorn SolveMate:app
